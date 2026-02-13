@@ -1,42 +1,4 @@
 
-# Assignment 1
-
-**Constraint:** 
-You cannot use Dictionaries or Classes (Not yet covered). You must use **Parallel Lists**. You are not permitted to use AI tools to auto-generate code.
-
-## Scenario
-
-You are a new Ensign in the Operations Division. The ship's "Personnel Management System" was written by a developer who has been transferred off the ship for incompetence. The code is a disaster: it is one giant block of over 100 lines, uses global variables incorrectly, contains infinite loops, and crashes constantly.
-
-Your orders are to **refactor the entire codebase** into a modular, function-based system and expand its capabilities to manage the entire crew.
-
-## Part A: The "Spaghetti Code" Disaster (20 Marks)
-
-**Context:** The following code is provided to you. It is a single, massive script with no structure.
-
-**Task:**
-
-1. Open this code space (https://classroom.github.com/a/eVR42nHF) I have populated it with this spaghetti code.
-    
-2.  Debug the **Syntax Errors** (missing colons, broken strings).
-    
-3.  Debug the **Logical Errors** (Infinite loops, list index out of range, type errors).
-    
-4.  **Do not fix the structure yet.** Just get this specific block of code to run without crashing, then save it as `old_system.py`.
-    
-5.  Document **10 distinct bugs** you found, **you will need this for part C**.
-
-**Each Fix is worth 2 Marks for a maximum of 20 Marks** 
-
-**Hints**
-
-You will want to research the functionality of ``.pop()`` and ``.index()`` 
-https://docs.python.org/3/tutorial/datastructures.html
-
-```
-🔴🔴🔴 YOU MUST COMMIT EVERYTIME YOU SQUASH A BUG  🔴🔴🔴
-```
-
 ```python
 
 n = ["Picard", "Riker", "Data", "Worf"]
