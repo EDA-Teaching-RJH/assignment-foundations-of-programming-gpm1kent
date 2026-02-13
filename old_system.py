@@ -1,7 +1,7 @@
 n = ["Picard", "Riker", "Data", "Worf"]
 r = ["Captain", "Commander", "Lt. Commander", "Lieutenant"]
 d = ["Command", "Command", "Operations", "Security"]
-
+length = len(n)
 active = True
 
 def run_system_monolith():
@@ -27,7 +27,7 @@ def run_system_monolith():
         if opt == "1":  
             print("Current Crew List:")
             
-            for i in range(n):
+            for i in range(length):
                 print(n[i] + " - " + r[i]) 
                 
         elif opt == "2":
